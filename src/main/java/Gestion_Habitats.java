@@ -24,3 +24,7 @@ class HabitatAcuatico extends Habitat {
     public HabitatAcuatico(String nombre) {
         super(nombre);
     }
+    public void monitorear() {
+        super.monitorear();
+        System.out.println("Nivel de agua: " + nivelAgua + " metros\n");
+    }
