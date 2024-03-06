@@ -27,6 +27,10 @@ public class Habitat_Terrestre extends Hábitat {
             return rocas;
         }
 
+        public void setTipo_suelo(String tipo_suelo) {
+            this.tipo_suelo = tipo_suelo;
+        }
+
 
 
 
