@@ -42,4 +42,7 @@ public class Habitat_Aviario extends Hábitat{
 
     // Método toString
     @Override
+    public String toString() {
+        return "Habitat_Aviario{" + "tipo_aves=" + tipo_aves + ", tipo_alimentacion=" + tipo_alimentacion + ", tipo_nidos=" + tipo_nidos + '}';
+    }
 }
