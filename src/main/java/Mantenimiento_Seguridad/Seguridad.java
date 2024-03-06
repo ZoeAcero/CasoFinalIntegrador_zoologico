@@ -24,4 +24,9 @@ public class Seguridad extends Instalaciones{
         System.out.println("Desactivando seguridad en " + nombre);
     }
 
+    // Getters y Setters
+    public String getTipo_seguridad() {
+        return tipo_seguridad;
+    }
+
 }
