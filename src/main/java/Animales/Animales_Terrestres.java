@@ -31,4 +31,8 @@ public class Animales_Terrestres extends Animales{
     public void setPelaje(String pelaje) {
         this.pelaje = pelaje;
     }
+
+    public void setGarras(String garras) {
+        this.garras = garras;
+    }
 }
