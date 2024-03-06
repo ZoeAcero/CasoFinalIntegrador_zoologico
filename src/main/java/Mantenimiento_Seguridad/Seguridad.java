@@ -37,4 +37,8 @@ public class Seguridad extends Instalaciones{
         return hora_activacion;
     }
 
+    public void setTipo_seguridad(String tipo_seguridad) {
+        this.tipo_seguridad = tipo_seguridad;
+    }
+
 }
