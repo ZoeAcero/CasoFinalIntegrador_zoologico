@@ -9,6 +9,8 @@ public class Animales {
     String edad;
     Float peso;
     Float altura;
+    Boolean vacunado;
+    Boolean esterilizado;
 
     public Animales(String nombre, String tipo, String raza, String color, String edad, Float peso, Float altura) {
         this.nombre = nombre;
@@ -19,8 +21,6 @@ public class Animales {
         this.peso = peso;
         this.altura = altura;
     }
-
-
 
 
 }
