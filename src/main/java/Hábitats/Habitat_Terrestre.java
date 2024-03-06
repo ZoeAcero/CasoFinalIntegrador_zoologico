@@ -23,6 +23,10 @@ public class Habitat_Terrestre extends Hábitat {
             return vegetacion;
         }
 
+        public String getRocas() {
+            return rocas;
+        }
+
 
 
 
