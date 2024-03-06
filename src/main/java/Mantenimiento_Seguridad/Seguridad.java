@@ -33,4 +33,8 @@ public class Seguridad extends Instalaciones{
         return fecha_activacion;
     }
 
+    public String getHora_activacion() {
+        return hora_activacion;
+    }
+
 }
