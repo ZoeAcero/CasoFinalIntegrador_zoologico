@@ -31,4 +31,8 @@ public class Habitat_Aviario extends Hábitat{
     public void setTipo_aves(String tipo_aves) {
         this.tipo_aves = tipo_aves;
     }
+
+    public void setTipo_alimentacion(String tipo_alimentacion) {
+        this.tipo_alimentacion = tipo_alimentacion;
+    }
 }
