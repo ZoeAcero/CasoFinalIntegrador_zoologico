@@ -13,7 +13,12 @@ public class Habitat_Terrestre extends Hábitat {
             this.vegetacion = vegetacion;
             this.rocas = rocas;
         }
-    
+
+        // Getters y Setters
+        public String getTipo_suelo() {
+            return tipo_suelo;
+        }
+
 
 
 
