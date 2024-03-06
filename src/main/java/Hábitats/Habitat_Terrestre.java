@@ -19,6 +19,10 @@ public class Habitat_Terrestre extends Hábitat {
             return tipo_suelo;
         }
 
+        public String getVegetacion() {
+            return vegetacion;
+        }
+
 
 
 
