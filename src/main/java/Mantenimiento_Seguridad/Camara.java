@@ -28,6 +28,10 @@ public class Camara extends Seguridad {
         return fecha_instalacion;
     }
 
+    public void setTipo_camara(String tipo_camara) {
+        this.tipo_camara = tipo_camara;
+    }
+
 
 
 }
