@@ -23,4 +23,8 @@ public class Habitat_Aviario extends Hábitat{
     public String getTipo_alimentacion() {
         return tipo_alimentacion;
     }
+
+    public String getTipo_nidos() {
+        return tipo_nidos;
+    }
 }
