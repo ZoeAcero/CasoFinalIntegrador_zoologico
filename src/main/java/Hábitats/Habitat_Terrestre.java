@@ -46,9 +46,4 @@ public class Habitat_Terrestre extends Hábitat {
         }
 
 
-
-
-
-
-
 }
