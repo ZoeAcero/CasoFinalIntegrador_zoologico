@@ -15,6 +15,11 @@ public class Camara extends Seguridad {
         this.fecha_instalacion = fecha_instalacion;
     }
 
+    // Método para activar y desactivar cámaras
+    public void activarCamara() {
+        System.out.println("Activando cámara en " + nombre);
+    }
+
     // Getters y Setters
     public String getTipo_camara() {
         return tipo_camara;
