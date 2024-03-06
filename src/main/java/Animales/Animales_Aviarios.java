@@ -32,4 +32,8 @@ public class Animales_Aviarios extends Animales{
         this.plumaje = plumaje;
     }
 
+    public void setPico(String pico) {
+        this.pico = pico;
+    }
+
 }
