@@ -24,5 +24,9 @@ public Animales_Acuaticos(String nombre, String tipo, String raza, String color,
         return aletas;
     }
 
+    public String getBranquias() {
+        return branquias;
+    }
+
 
 }
