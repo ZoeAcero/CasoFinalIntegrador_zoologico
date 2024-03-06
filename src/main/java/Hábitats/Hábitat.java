@@ -28,4 +28,8 @@ public class Hábitat {
     public String getHumedad() {
         return humedad;
     }
+
+    public String getTemperatura() {
+        return temperatura;
+    }
 }
