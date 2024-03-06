@@ -23,3 +23,7 @@ public String getSalinidad() {
 public String getCorales() {
     return corales;
 }
+
+public void setTipo_agua(String tipo_agua) {
+    this.tipo_agua = tipo_agua;
+}
