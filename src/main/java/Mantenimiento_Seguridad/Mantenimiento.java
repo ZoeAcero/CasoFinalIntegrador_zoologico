@@ -34,4 +34,8 @@ public class Mantenimiento extends Instalaciones{
         return fecha_mantenimiento;
     }
 
+    public String getHora_mantenimiento() {
+        return hora_mantenimiento;
+    }
+
 }
