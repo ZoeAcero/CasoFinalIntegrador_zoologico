@@ -42,6 +42,9 @@ public Animales_Acuaticos(String nombre, String tipo, String raza, String color,
 
     // Método toString
     @Override
+    public String toString() {
+        return "Animales_Acuaticos{" + "escamas=" + escamas + ", aletas=" + aletas + ", branquias=" + branquias + '}';
+    }
 
 
 }
