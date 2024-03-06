@@ -42,4 +42,7 @@ public class Animales_Terrestres extends Animales{
 
     // Método toString
     @Override
+    public String toString() {
+        return "Animales_Terrestres{" + "pelaje=" + pelaje + ", garras=" + garras + ", tipo_patas=" + tipo_patas + '}';
+    }
 }
