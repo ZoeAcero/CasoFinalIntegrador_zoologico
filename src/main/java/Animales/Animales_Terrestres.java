@@ -27,4 +27,8 @@ public class Animales_Terrestres extends Animales{
     public String getTipo_patas() {
         return tipo_patas;
     }
+
+    public void setPelaje(String pelaje) {
+        this.pelaje = pelaje;
+    }
 }
