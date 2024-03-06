@@ -20,6 +20,10 @@ public class Seguridad{
         System.out.println("Activando seguridad en " + nombre);
     }
 
+    public void desactivarSeguridad() {
+        System.out.println("Desactivando seguridad en " + nombre);
+    }
+
     // Getters y Setters
     public String getTipo_seguridad() {
         return tipo_seguridad;
