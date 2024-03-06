@@ -42,5 +42,8 @@ public class Animales_Aviarios extends Animales{
 
     // Método toString
     @Override
+    public String toString() {
+        return "Animales_Aviarios{" + "plumaje=" + plumaje + ", pico=" + pico + ", tipo_patas=" + tipo_patas + '}';
+    }
 
 }
