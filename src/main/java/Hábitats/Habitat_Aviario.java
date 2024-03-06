@@ -27,4 +27,8 @@ public class Habitat_Aviario extends Hábitat{
     public String getTipo_nidos() {
         return tipo_nidos;
     }
+
+    public void setTipo_aves(String tipo_aves) {
+        this.tipo_aves = tipo_aves;
+    }
 }
