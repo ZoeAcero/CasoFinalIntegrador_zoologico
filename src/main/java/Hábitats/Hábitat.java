@@ -40,4 +40,8 @@ public class Hábitat {
     public String getTamaño() {
         return tamaño;
     }
+
+    public String getLimpieza() {
+        return limpieza;
+    }
 }
