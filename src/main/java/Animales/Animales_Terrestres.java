@@ -14,4 +14,9 @@ public class Animales_Terrestres extends Animales{
         this.garras = garras;
         this.tipo_patas = tipo_patas;
     }
+
+    // Getters y Setters
+    public String getPelaje() {
+        return pelaje;
+    }
 }
