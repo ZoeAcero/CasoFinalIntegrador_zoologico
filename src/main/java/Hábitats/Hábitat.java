@@ -44,4 +44,8 @@ public class Hábitat {
     public String getLimpieza() {
         return limpieza;
     }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
