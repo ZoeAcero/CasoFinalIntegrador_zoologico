@@ -8,7 +8,6 @@ public class Visitantes {
     String direccion;
     String fechaNacimiento;
     String genero;
-    String ocupacion;
     String tipoVisita;
     String fechaVisita;
     String horaVisita;
