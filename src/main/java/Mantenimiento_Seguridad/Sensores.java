@@ -24,4 +24,8 @@ public class Sensores extends Seguridad{
         return ubicacion_sensor;
     }
 
+    public String getFecha_instalacion() {
+        return fecha_instalacion;
+    }
+
 }
