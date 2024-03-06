@@ -7,5 +7,13 @@ public class Animales_Acuaticos extends Animales{
     String aletas;
     String branquias;
 
+    // Constructor clase Animales_Acuaticos
+public Animales_Acuaticos(String nombre, String tipo, String raza, String color, String edad, Float peso, Float altura, Boolean vacunado, Boolean esterilizado, String escamas, String aletas, String branquias) {
+        super(nombre, tipo, raza, color, edad, peso, altura, vacunado, esterilizado);
+        this.escamas = escamas;
+        this.aletas = aletas;
+        this.branquias = branquias;
+    }
+
 
 }
