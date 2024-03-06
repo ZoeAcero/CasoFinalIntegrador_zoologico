@@ -32,3 +32,5 @@ class HabitatAcuatico extends Habitat {
         this.nivelAgua = nivelAgua;
     }
 }
+class HabitatTerrestre extends Habitat {
+    private String tipoSuelo;
