@@ -39,4 +39,7 @@ public class Habitat_Aviario extends Hábitat{
     public void setTipo_nidos(String tipo_nidos) {
         this.tipo_nidos = tipo_nidos;
     }
+
+    // Método toString
+    @Override
 }
