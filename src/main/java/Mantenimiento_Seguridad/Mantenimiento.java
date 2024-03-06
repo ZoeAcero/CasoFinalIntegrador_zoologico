@@ -50,4 +50,7 @@ public class Mantenimiento extends Instalaciones{
         this.hora_mantenimiento = hora_mantenimiento;
     }
 
+    // Método toString
+    @Override
+
 }
