@@ -15,6 +15,11 @@ public class Sensores extends Seguridad{
         this.fecha_instalacion = fecha_instalacion;
     }
 
+    // Método para activar y desactivar sensores
+    public void activarSensor() {
+        System.out.println("Activando sensor en " + nombre);
+    }
+
     // Getters y Setters
     public String getTipo_sensor() {
         return tipo_sensor;

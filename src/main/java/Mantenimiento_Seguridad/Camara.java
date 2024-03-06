@@ -23,7 +23,7 @@ public class Camara extends Seguridad {
     public void desactivarCamara() {
         System.out.println("Desactivando cámara en " + nombre);
     }
-    
+
 
     // Getters y Setters
     public String getTipo_camara() {
