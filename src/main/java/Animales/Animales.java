@@ -20,6 +20,8 @@ public class Animales {
         this.edad = edad;
         this.peso = peso;
         this.altura = altura;
+        this.vacunado = vacunado;
+        this.esterilizado = esterilizado;
     }
 
 
