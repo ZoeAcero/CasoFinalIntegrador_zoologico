@@ -36,4 +36,8 @@ public class Hábitat {
     public String getTipo() {
         return tipo;
     }
+
+    public String getTamaño() {
+        return tamaño;
+    }
 }
