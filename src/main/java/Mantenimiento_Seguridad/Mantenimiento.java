@@ -19,4 +19,8 @@ public class Mantenimiento {
         return nombre;
     }
 
+    public String getTipo() {
+        return tipo;
+    }
+
 }
