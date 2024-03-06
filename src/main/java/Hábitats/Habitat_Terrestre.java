@@ -5,7 +5,19 @@ public class Habitat_Terrestre extends Hábitat {
     String tipo_suelo;
     String vegetacion;
     String rocas;
+
+        // Constructor clase Habitat_Terrestre
+        public Habitat_Terrestre(String nombre, String humedad, String temperatura, String tipo, String tamaño, String limpieza, String tipo_suelo, String vegetacion, String rocas) {
+            super(nombre, humedad, temperatura, tipo, tamaño, limpieza);
+            this.tipo_suelo = tipo_suelo;
+            this.vegetacion = vegetacion;
+            this.rocas = rocas;
+        }
     
+
+
+
+
 
 
 }
