@@ -19,4 +19,9 @@ public class Hábitat {
         this.tamaño = tamaño;
         this.limpieza = limpieza;
     }
+
+    // Getters y Setters
+    public String getNombre() {
+        return nombre;
+    }
 }
