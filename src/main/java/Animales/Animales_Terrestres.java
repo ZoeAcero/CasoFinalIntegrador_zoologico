@@ -35,4 +35,8 @@ public class Animales_Terrestres extends Animales{
     public void setGarras(String garras) {
         this.garras = garras;
     }
+
+    public void setTipo_patas(String tipo_patas) {
+        this.tipo_patas = tipo_patas;
+    }
 }
