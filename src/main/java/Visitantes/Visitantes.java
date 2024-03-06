@@ -2,15 +2,18 @@ package Visitantes;
 
 public class Visitantes {
 
-    String nombre;
-    String apellido;
-    String telefono;
-    String direccion;
-    String fechaNacimiento;
-    String genero;
-    String tipoVisita;
+    // Atributos
+    String Edad;
+    String InteresVisitante;
     String fechaVisita;
     String horaVisita;
-    String motivoVisita;
+
+    // Constructor
+    public Visitantes(String Edad, String InteresVisitante, String fechaVisita, String horaVisita) {
+        this.Edad = Edad;
+        this.InteresVisitante = InteresVisitante;
+        this.fechaVisita = fechaVisita;
+        this.horaVisita = horaVisita;
+    }
 
 }
