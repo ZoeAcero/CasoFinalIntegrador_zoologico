@@ -19,3 +19,7 @@ public String getTipo_agua() {
 public String getSalinidad() {
     return salinidad;
 }
+
+public String getCorales() {
+    return corales;
+}
