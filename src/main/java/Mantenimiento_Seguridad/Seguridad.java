@@ -15,13 +15,4 @@ public class Seguridad{
         this.hora_activacion = hora_activacion;
     }
 
-    // Métodos para activar y desactivar seguridad
-    public void activarSeguridad() {
-        System.out.println("Activando seguridad en " + nombre);
-    }
-
-    public void desactivarSeguridad() {
-        System.out.println("Desactivando seguridad en " + nombre);
-    }
-
 }
