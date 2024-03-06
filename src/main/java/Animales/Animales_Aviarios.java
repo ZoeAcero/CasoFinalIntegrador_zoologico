@@ -20,5 +20,8 @@ public class Animales_Aviarios extends Animales{
         return plumaje;
     }
 
+    public String getPico() {
+        return pico;
+    }
 
 }
