@@ -7,5 +7,11 @@ public class Animales_Terrestres extends Animales{
     String garras;
     String tipo_patas;
 
-   
+    // Constructor clase Animales_Terrestres
+    public Animales_Terrestres(String nombre, String tipo, String raza, String color, String edad, Float peso, Float altura, Boolean vacunado, Boolean esterilizado, String pelaje, String garras, String tipo_patas) {
+        super(nombre, tipo, raza, color, edad, peso, altura, vacunado, esterilizado);
+        this.pelaje = pelaje;
+        this.garras = garras;
+        this.tipo_patas = tipo_patas;
+    }
 }
