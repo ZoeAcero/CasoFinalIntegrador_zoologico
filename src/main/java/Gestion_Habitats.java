@@ -19,3 +19,5 @@ class Habitat {
         System.out.println("Limpieza: " + limpieza + "%\n");
     }
 }
+class HabitatAcuatico extends Habitat {
+    private double nivelAgua;
