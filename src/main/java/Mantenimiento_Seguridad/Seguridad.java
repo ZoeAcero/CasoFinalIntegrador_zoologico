@@ -41,4 +41,8 @@ public class Seguridad extends Instalaciones{
         this.tipo_seguridad = tipo_seguridad;
     }
 
+    public void setFecha_activacion(String fecha_activacion) {
+        this.fecha_activacion = fecha_activacion;
+    }
+
 }
