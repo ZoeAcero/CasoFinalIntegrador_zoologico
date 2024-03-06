@@ -23,4 +23,35 @@ public class Instalaciones {
         System.out.println("Realizando reparaciones en " + nombre);
     }
 
+// Método toString
+    @Override
+    public String toString() {
+        return "Instalaciones{" + "nombre=" + nombre + ", ubicacion=" + ubicacion + ", tipo=" + tipo + '}';
+    }
+
+    // Getters y Setters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getUbicacion() {
+        return ubicacion;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setUbicacion(String ubicacion) {
+        this.ubicacion = ubicacion;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
 }
