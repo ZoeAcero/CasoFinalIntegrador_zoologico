@@ -40,4 +40,10 @@ public class Sensores extends Seguridad{
         this.fecha_instalacion = fecha_instalacion;
     }
 
+    // Método toString
+    @Override
+    public String toString() {
+        return "Sensores{" + "tipo_sensor=" + tipo_sensor + ", ubicacion_sensor=" + ubicacion_sensor + ", fecha_instalacion=" + fecha_instalacion + '}';
+    }
+
 }
