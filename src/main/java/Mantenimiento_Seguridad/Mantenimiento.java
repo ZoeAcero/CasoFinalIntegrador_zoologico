@@ -15,6 +15,16 @@ public class Mantenimiento extends Instalaciones{
         this.hora_mantenimiento = hora_mantenimiento;
     }
 
+    // Métodos para realizar mantenimiento y reparaciones
+    public void realizarMantenimiento() {
+        System.out.println("Realizando mantenimiento en " + nombre);
+    }
+
+    public void realizarReparaciones() {
+        System.out.println("Realizando reparaciones en " + nombre);
+    }
+    
+
     // Getters y Setters
     public String getTipo_mantenimiento() {
         return tipo_mantenimiento;
