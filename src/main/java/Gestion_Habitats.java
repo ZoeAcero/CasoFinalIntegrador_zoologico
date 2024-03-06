@@ -41,3 +41,7 @@ class HabitatTerrestre extends Habitat {
         super.monitorear();
         System.out.println("Tipo de suelo: " + tipoSuelo + "\n");
     }
+    public void setTipoSuelo(String tipoSuelo) {
+        this.tipoSuelo = tipoSuelo;
+    }
+}
