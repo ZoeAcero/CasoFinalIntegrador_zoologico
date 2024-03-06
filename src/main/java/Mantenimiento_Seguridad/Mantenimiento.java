@@ -15,4 +15,9 @@ public class Mantenimiento extends Instalaciones{
         this.hora_mantenimiento = hora_mantenimiento;
     }
 
+    // Getters y Setters
+    public String getTipo_mantenimiento() {
+        return tipo_mantenimiento;
+    }
+
 }
