@@ -20,5 +20,9 @@ public Animales_Acuaticos(String nombre, String tipo, String raza, String color,
         return escamas;
     }
 
+    public String getAletas() {
+        return aletas;
+    }
+
 
 }
