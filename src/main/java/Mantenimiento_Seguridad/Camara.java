@@ -42,6 +42,9 @@ public class Camara extends Seguridad {
 
     // Método toString
     @Override
+    public String toString() {
+        return "Camara{" + "tipo_camara=" + tipo_camara + ", ubicacion_camara=" + ubicacion_camara + ", fecha_instalacion=" + fecha_instalacion + '}';
+    }
 
 
 
