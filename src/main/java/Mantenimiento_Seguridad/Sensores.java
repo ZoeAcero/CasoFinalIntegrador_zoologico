@@ -32,4 +32,8 @@ public class Sensores extends Seguridad{
         this.tipo_sensor = tipo_sensor;
     }
 
+    public void setUbicacion_sensor(String ubicacion_sensor) {
+        this.ubicacion_sensor = ubicacion_sensor;
+    }
+
 }
