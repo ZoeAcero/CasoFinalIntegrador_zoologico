@@ -40,6 +40,9 @@ public class Camara extends Seguridad {
         this.fecha_instalacion = fecha_instalacion;
     }
 
+    // Método toString
+    @Override
+
 
 
 }
