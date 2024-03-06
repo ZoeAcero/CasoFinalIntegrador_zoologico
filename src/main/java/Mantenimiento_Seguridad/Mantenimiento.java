@@ -38,4 +38,8 @@ public class Mantenimiento extends Instalaciones{
         return hora_mantenimiento;
     }
 
+    public void setTipo_mantenimiento(String tipo_mantenimiento) {
+        this.tipo_mantenimiento = tipo_mantenimiento;
+    }
+
 }
