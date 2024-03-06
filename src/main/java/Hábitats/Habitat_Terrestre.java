@@ -39,6 +39,9 @@ public class Habitat_Terrestre extends Hábitat {
             this.rocas = rocas;
         }
 
+        // Método toString
+        @Override
+
 
 
 
