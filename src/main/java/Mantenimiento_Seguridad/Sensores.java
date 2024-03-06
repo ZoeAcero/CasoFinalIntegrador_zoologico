@@ -20,6 +20,11 @@ public class Sensores extends Seguridad{
         System.out.println("Activando sensor en " + nombre);
     }
 
+    public void desactivarSensor() {
+        System.out.println("Desactivando sensor en " + nombre);
+    }
+    
+
     // Getters y Setters
     public String getTipo_sensor() {
         return tipo_sensor;
