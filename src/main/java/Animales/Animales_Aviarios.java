@@ -15,7 +15,10 @@ public class Animales_Aviarios extends Animales{
         this.tipo_patas = tipo_patas;
     }
 
-   
+   // getters y setters
+    public String getPlumaje() {
+        return plumaje;
+    }
 
 
 }
