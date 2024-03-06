@@ -52,5 +52,8 @@ public class Mantenimiento extends Instalaciones{
 
     // Método toString
     @Override
+    public String toString() {
+        return "Mantenimiento{" + "tipo_mantenimiento=" + tipo_mantenimiento + ", fecha_mantenimiento=" + fecha_mantenimiento + ", hora_mantenimiento=" + hora_mantenimiento + '}';
+    }
 
 }
