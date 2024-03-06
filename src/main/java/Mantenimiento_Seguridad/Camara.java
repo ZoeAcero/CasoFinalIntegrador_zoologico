@@ -24,6 +24,10 @@ public class Camara extends Seguridad {
         return ubicacion_camara;
     }
 
+    public String getFecha_instalacion() {
+        return fecha_instalacion;
+    }
+
 
 
 }
