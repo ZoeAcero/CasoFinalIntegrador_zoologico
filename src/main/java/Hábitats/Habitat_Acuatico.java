@@ -14,8 +14,8 @@ public Habitat_Acuatico(String nombre, String humedad, String temperatura, Strin
 // Getters y Setters
 public String getTipo_agua() {
     return tipo_agua;
-    
+}
 
-
-
+public String getSalinidad() {
+    return salinidad;
 }
