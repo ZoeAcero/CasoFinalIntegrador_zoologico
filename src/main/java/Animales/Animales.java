@@ -12,6 +12,7 @@ public class Animales {
     Boolean vacunado;
     Boolean esterilizado;
 
+    // Constructor
     public Animales(String nombre, String tipo, String raza, String color, String edad, Float peso, Float altura, Boolean vacunado, Boolean esterilizado) {
         this.nombre = nombre;
         this.tipo = tipo;
