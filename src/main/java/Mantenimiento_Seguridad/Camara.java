@@ -15,6 +15,13 @@ public class Camara extends Seguridad {
         this.fecha_instalacion = fecha_instalacion;
     }
 
+    // Getters y Setters
+    public String getTipo_camara() {
+        return tipo_camara;
+    }
+
+    
+
 
 
 }
