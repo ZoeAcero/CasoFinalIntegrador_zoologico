@@ -40,4 +40,7 @@ public class Animales_Aviarios extends Animales{
         this.tipo_patas = tipo_patas;
     }
 
+    // Método toString
+    @Override
+
 }
