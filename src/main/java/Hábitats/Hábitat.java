@@ -8,5 +8,5 @@ public class Hábitat {
     String temperatura;
     String tipo;
     String tamaño;
-    
+    String limpieza;
 }
