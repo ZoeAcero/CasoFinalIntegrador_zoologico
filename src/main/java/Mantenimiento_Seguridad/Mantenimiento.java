@@ -23,11 +23,15 @@ public class Mantenimiento extends Instalaciones{
     public void realizarReparaciones() {
         System.out.println("Realizando reparaciones en " + nombre);
     }
-    
+
 
     // Getters y Setters
     public String getTipo_mantenimiento() {
         return tipo_mantenimiento;
+    }
+
+    public String getFecha_mantenimiento() {
+        return fecha_mantenimiento;
     }
 
 }
