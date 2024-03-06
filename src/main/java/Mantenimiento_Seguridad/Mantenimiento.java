@@ -23,4 +23,8 @@ public class Mantenimiento {
         return tipo;
     }
 
+    public boolean getMantenimientoProgramado() {
+        return mantenimientoProgramado;
+    }
+
 }
