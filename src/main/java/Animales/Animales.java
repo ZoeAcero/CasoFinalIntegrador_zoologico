@@ -29,6 +29,12 @@ public class Animales {
         System.out.println("Peso: " + peso);
         System.out.println("Altura: " + altura);
     }
+
+    public void mostrarTipo(){
+        System.out.println("Tipo: " + tipo);
+    }
+
+    
 }
 
 
