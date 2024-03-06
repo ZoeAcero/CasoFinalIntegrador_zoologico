@@ -20,7 +20,9 @@ public class Camara extends Seguridad {
         return tipo_camara;
     }
 
-    
+    public String getUbicacion_camara() {
+        return ubicacion_camara;
+    }
 
 
 
