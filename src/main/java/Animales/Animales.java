@@ -19,6 +19,16 @@ public class Animales {
         this.peso = peso;
         this.altura = altura;
     }
+
+    public void mostrarDatos(){
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Tipo: " + tipo);
+        System.out.println("Raza: " + raza);
+        System.out.println("Color: " + color);
+        System.out.println("Edad: " + edad);
+        System.out.println("Peso: " + peso);
+        System.out.println("Altura: " + altura);
+    }
 }
 
 
