@@ -31,3 +31,8 @@ public void setTipo_agua(String tipo_agua) {
 public void setSalinidad(String salinidad) {
     this.salinidad = salinidad;
 }
+
+public void setCorales(String corales) {
+    this.corales = corales;
+}
+}
