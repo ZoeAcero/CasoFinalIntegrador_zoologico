@@ -32,4 +32,8 @@ public class Hábitat {
     public String getTemperatura() {
         return temperatura;
     }
+
+    public String getTipo() {
+        return tipo;
+    }
 }
