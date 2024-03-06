@@ -29,4 +29,8 @@ public class Seguridad extends Instalaciones{
         return tipo_seguridad;
     }
 
+    public String getFecha_activacion() {
+        return fecha_activacion;
+    }
+
 }
