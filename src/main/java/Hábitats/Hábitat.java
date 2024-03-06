@@ -52,4 +52,8 @@ public class Hábitat {
     public void setHumedad(String humedad) {
         this.humedad = humedad;
     }
+
+    public void setTemperatura(String temperatura) {
+        this.temperatura = temperatura;
+    }
 }
