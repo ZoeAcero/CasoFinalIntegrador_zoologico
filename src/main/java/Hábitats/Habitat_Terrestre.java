@@ -35,6 +35,10 @@ public class Habitat_Terrestre extends Hábitat {
             this.vegetacion = vegetacion;
         }
 
+        public void setRocas(String rocas) {
+            this.rocas = rocas;
+        }
+
 
 
 
