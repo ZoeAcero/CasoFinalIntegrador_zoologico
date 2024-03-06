@@ -24,4 +24,8 @@ public class Hábitat {
     public String getNombre() {
         return nombre;
     }
+
+    public String getHumedad() {
+        return humedad;
+    }
 }
