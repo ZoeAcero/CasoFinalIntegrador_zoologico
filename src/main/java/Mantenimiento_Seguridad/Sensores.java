@@ -20,4 +20,8 @@ public class Sensores extends Seguridad{
         return tipo_sensor;
     }
 
+    public String getUbicacion_sensor() {
+        return ubicacion_sensor;
+    }
+
 }
