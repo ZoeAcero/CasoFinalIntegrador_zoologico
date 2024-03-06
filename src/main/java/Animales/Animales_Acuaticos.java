@@ -36,5 +36,9 @@ public Animales_Acuaticos(String nombre, String tipo, String raza, String color,
         this.aletas = aletas;
     }
 
+    public void setBranquias(String branquias) {
+        this.branquias = branquias;
+    }
+
 
 }
