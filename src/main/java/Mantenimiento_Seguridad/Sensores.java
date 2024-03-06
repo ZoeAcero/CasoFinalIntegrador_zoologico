@@ -36,4 +36,8 @@ public class Sensores extends Seguridad{
         this.ubicacion_sensor = ubicacion_sensor;
     }
 
+    public void setFecha_instalacion(String fecha_instalacion) {
+        this.fecha_instalacion = fecha_instalacion;
+    }
+
 }
