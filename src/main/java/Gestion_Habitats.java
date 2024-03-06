@@ -21,3 +21,6 @@ class Habitat {
 }
 class HabitatAcuatico extends Habitat {
     private double nivelAgua;
+    public HabitatAcuatico(String nombre) {
+        super(nombre);
+    }
