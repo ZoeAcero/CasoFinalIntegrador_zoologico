@@ -41,3 +41,5 @@ public void setCorales(String corales) {
 public String toString() {
     return "Habitat_Acuatico{" + "tipo_agua=" + tipo_agua + ", salinidad=" + salinidad + ", corales=" + corales + '}';
 }
+
+    }
