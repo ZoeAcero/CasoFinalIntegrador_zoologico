@@ -34,7 +34,11 @@ public class Animales {
         System.out.println("Tipo: " + tipo);
     }
 
-    
+    public void mostrarRaza(){
+        System.out.println("Raza: " + raza);
+    }
+
+
 }
 
 
