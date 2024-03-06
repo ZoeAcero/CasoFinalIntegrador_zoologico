@@ -6,3 +6,6 @@ class Habitat {
     protected double temperatura;
     protected double humedad;
     protected double limpieza;
+    public Habitat(String nombre) {
+        this.nombre = nombre;
+    }
