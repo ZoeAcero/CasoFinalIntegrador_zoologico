@@ -41,6 +41,9 @@ public class Habitat_Terrestre extends Hábitat {
 
         // Método toString
         @Override
+        public String toString() {
+            return "Habitat_Terrestre{" + "tipo_suelo=" + tipo_suelo + ", vegetacion=" + vegetacion + ", rocas=" + rocas + '}';
+        }
 
 
 
