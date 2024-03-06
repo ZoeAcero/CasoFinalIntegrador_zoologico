@@ -60,4 +60,8 @@ public class Hábitat {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    public void setTamaño(String tamaño) {
+        this.tamaño = tamaño;
+    }
 }
