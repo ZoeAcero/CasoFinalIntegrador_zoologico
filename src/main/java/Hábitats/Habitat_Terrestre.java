@@ -31,6 +31,10 @@ public class Habitat_Terrestre extends Hábitat {
             this.tipo_suelo = tipo_suelo;
         }
 
+        public void setVegetacion(String vegetacion) {
+            this.vegetacion = vegetacion;
+        }
+
 
 
 
