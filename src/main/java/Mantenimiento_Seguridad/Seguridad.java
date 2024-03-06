@@ -24,35 +24,4 @@ public class Seguridad{
         System.out.println("Desactivando seguridad en " + nombre);
     }
 
-    // Getters y Setters
-    public String getTipo_seguridad() {
-        return tipo_seguridad;
-    }
-
-    public String getFecha_activacion() {
-        return fecha_activacion;
-    }
-
-    public String getHora_activacion() {
-        return hora_activacion;
-    }
-
-    public void setTipo_seguridad(String tipo_seguridad) {
-        this.tipo_seguridad = tipo_seguridad;
-    }
-
-    public void setFecha_activacion(String fecha_activacion) {
-        this.fecha_activacion = fecha_activacion;
-    }
-
-    public void setHora_activacion(String hora_activacion) {
-        this.hora_activacion = hora_activacion;
-    }
-
-    // Método toString
-    @Override
-    public String toString() {
-        return "Seguridad{" + "tipo_seguridad=" + tipo_seguridad + ", fecha_activacion=" + fecha_activacion + ", hora_activacion=" + hora_activacion + '}';
-    }
-
 }
