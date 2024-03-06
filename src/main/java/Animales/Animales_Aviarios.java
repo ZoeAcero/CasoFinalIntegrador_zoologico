@@ -24,4 +24,8 @@ public class Animales_Aviarios extends Animales{
         return pico;
     }
 
+    public String getTipo_patas() {
+        return tipo_patas;
+    }
+
 }
