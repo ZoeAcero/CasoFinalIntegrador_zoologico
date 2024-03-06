@@ -49,4 +49,10 @@ public class Seguridad extends Instalaciones{
         this.hora_activacion = hora_activacion;
     }
 
+    // Método toString
+    @Override
+    public String toString() {
+        return "Seguridad{" + "tipo_seguridad=" + tipo_seguridad + ", fecha_activacion=" + fecha_activacion + ", hora_activacion=" + hora_activacion + '}';
+    }
+
 }
