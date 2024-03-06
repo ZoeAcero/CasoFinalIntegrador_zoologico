@@ -14,4 +14,9 @@ public class Instalaciones {
         this.tipo = tipo;
     }
 
+    // Métodos para realizar mantenimiento y reparaciones
+    public void realizarMantenimiento() {
+        System.out.println("Realizando mantenimiento en " + nombre);
+    }
+
 }
