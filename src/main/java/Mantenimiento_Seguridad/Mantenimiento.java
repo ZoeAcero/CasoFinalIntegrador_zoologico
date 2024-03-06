@@ -46,4 +46,8 @@ public class Mantenimiento extends Instalaciones{
         this.fecha_mantenimiento = fecha_mantenimiento;
     }
 
+    public void setHora_mantenimiento(String hora_mantenimiento) {
+        this.hora_mantenimiento = hora_mantenimiento;
+    }
+
 }
