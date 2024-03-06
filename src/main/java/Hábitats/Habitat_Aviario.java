@@ -14,4 +14,9 @@ public class Habitat_Aviario extends Hábitat{
         this.tipo_alimentacion = tipo_alimentacion;
         this.tipo_nidos = tipo_nidos;
     }
+
+    // Getters y Setters
+    public String getTipo_aves() {
+        return tipo_aves;
+    }
 }
