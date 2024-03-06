@@ -14,4 +14,9 @@ public class Mantenimiento {
         this.mantenimientoProgramado = mantenimientoProgramado;
     }
 
+    // Getters y Setters
+    public String getNombre() {
+        return nombre;
+    }
+
 }
