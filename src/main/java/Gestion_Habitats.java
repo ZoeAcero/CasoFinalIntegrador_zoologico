@@ -34,3 +34,10 @@ class HabitatAcuatico extends Habitat {
 }
 class HabitatTerrestre extends Habitat {
     private String tipoSuelo;
+    public HabitatTerrestre(String nombre) {
+        super(nombre);
+    }
+    public void monitorear() {
+        super.monitorear();
+        System.out.println("Tipo de suelo: " + tipoSuelo + "\n");
+    }
