@@ -48,4 +48,8 @@ public class Hábitat {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    public void setHumedad(String humedad) {
+        this.humedad = humedad;
+    }
 }
