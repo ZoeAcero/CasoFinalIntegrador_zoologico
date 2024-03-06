@@ -32,6 +32,10 @@ public class Camara extends Seguridad {
         this.tipo_camara = tipo_camara;
     }
 
+    public void setUbicacion_camara(String ubicacion_camara) {
+        this.ubicacion_camara = ubicacion_camara;
+    }
+
 
 
 }
