@@ -64,4 +64,8 @@ public class Hábitat {
     public void setTamaño(String tamaño) {
         this.tamaño = tamaño;
     }
+
+    public void setLimpieza(String limpieza) {
+        this.limpieza = limpieza;
+    }
 }
