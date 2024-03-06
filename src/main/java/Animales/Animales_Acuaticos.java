@@ -28,5 +28,9 @@ public Animales_Acuaticos(String nombre, String tipo, String raza, String color,
         return branquias;
     }
 
+    public void setEscamas(String escamas) {
+        this.escamas = escamas;
+    }
+
 
 }
