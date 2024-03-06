@@ -27,3 +27,7 @@ public String getCorales() {
 public void setTipo_agua(String tipo_agua) {
     this.tipo_agua = tipo_agua;
 }
+
+public void setSalinidad(String salinidad) {
+    this.salinidad = salinidad;
+}
