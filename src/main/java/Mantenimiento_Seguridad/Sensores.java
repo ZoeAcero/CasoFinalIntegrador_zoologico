@@ -28,4 +28,8 @@ public class Sensores extends Seguridad{
         return fecha_instalacion;
     }
 
+    public void setTipo_sensor(String tipo_sensor) {
+        this.tipo_sensor = tipo_sensor;
+    }
+
 }
