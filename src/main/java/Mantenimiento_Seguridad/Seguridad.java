@@ -45,4 +45,8 @@ public class Seguridad extends Instalaciones{
         this.fecha_activacion = fecha_activacion;
     }
 
+    public void setHora_activacion(String hora_activacion) {
+        this.hora_activacion = hora_activacion;
+    }
+
 }
