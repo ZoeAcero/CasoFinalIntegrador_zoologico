@@ -19,4 +19,8 @@ public class Instalaciones {
         System.out.println("Realizando mantenimiento en " + nombre);
     }
 
+    public void realizarReparaciones() {
+        System.out.println("Realizando reparaciones en " + nombre);
+    }
+
 }
