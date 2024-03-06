@@ -32,5 +32,9 @@ public Animales_Acuaticos(String nombre, String tipo, String raza, String color,
         this.escamas = escamas;
     }
 
+    public void setAletas(String aletas) {
+        this.aletas = aletas;
+    }
+
 
 }
