@@ -39,4 +39,7 @@ public class Animales_Terrestres extends Animales{
     public void setTipo_patas(String tipo_patas) {
         this.tipo_patas = tipo_patas;
     }
+
+    // Método toString
+    @Override
 }
