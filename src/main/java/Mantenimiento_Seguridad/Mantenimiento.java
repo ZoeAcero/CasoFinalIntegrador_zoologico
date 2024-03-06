@@ -42,4 +42,8 @@ public class Mantenimiento extends Instalaciones{
         this.tipo_mantenimiento = tipo_mantenimiento;
     }
 
+    public void setFecha_mantenimiento(String fecha_mantenimiento) {
+        this.fecha_mantenimiento = fecha_mantenimiento;
+    }
+
 }
