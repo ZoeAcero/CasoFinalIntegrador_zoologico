@@ -12,7 +12,7 @@ public class Animales {
     Boolean vacunado;
     Boolean esterilizado;
 
-    public Animales(String nombre, String tipo, String raza, String color, String edad, Float peso, Float altura) {
+    public Animales(String nombre, String tipo, String raza, String color, String edad, Float peso, Float altura, Boolean vacunado, Boolean esterilizado) {
         this.nombre = nombre;
         this.tipo = tipo;
         this.raza = raza;
