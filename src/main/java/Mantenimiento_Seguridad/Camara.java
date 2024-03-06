@@ -36,6 +36,10 @@ public class Camara extends Seguridad {
         this.ubicacion_camara = ubicacion_camara;
     }
 
+    public void setFecha_instalacion(String fecha_instalacion) {
+        this.fecha_instalacion = fecha_instalacion;
+    }
+
 
 
 }
