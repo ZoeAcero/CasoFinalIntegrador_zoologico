@@ -28,3 +28,7 @@ class HabitatAcuatico extends Habitat {
         super.monitorear();
         System.out.println("Nivel de agua: " + nivelAgua + " metros\n");
     }
+    public void setNivelAgua(double nivelAgua) {
+        this.nivelAgua = nivelAgua;
+    }
+}
