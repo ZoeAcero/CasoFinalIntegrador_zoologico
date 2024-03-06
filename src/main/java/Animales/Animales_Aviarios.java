@@ -28,4 +28,8 @@ public class Animales_Aviarios extends Animales{
         return tipo_patas;
     }
 
+    public void setPlumaje(String plumaje) {
+        this.plumaje = plumaje;
+    }
+
 }
