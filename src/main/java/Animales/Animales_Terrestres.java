@@ -19,4 +19,8 @@ public class Animales_Terrestres extends Animales{
     public String getPelaje() {
         return pelaje;
     }
+
+    public String getGarras() {
+        return garras;
+    }
 }
