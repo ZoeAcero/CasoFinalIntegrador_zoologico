@@ -68,4 +68,10 @@ public class Hábitat {
     public void setLimpieza(String limpieza) {
         this.limpieza = limpieza;
     }
+
+    // Método toString
+    @Override
+    public String toString() {
+        return "H\u00e1bitat{" + "nombre=" + nombre + ", humedad=" + humedad + ", temperatura=" + temperatura + ", tipo=" + tipo + ", tama\u00f1o=" + tamaño + ", limpieza=" + limpieza + '}';
+    }
 }
