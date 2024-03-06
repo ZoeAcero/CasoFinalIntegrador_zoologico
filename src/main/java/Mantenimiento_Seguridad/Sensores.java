@@ -15,4 +15,9 @@ public class Sensores extends Seguridad{
         this.fecha_instalacion = fecha_instalacion;
     }
 
+    // Getters y Setters
+    public String getTipo_sensor() {
+        return tipo_sensor;
+    }
+
 }
