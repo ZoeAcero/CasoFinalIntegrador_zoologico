@@ -36,4 +36,8 @@ public class Animales_Aviarios extends Animales{
         this.pico = pico;
     }
 
+    public void setTipo_patas(String tipo_patas) {
+        this.tipo_patas = tipo_patas;
+    }
+
 }
