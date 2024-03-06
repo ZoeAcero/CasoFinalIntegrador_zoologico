@@ -35,4 +35,9 @@ public void setSalinidad(String salinidad) {
 public void setCorales(String corales) {
     this.corales = corales;
 }
+
+// Método toString
+@Override
+public String toString() {
+    return "Habitat_Acuatico{" + "tipo_agua=" + tipo_agua + ", salinidad=" + salinidad + ", corales=" + corales + '}';
 }
