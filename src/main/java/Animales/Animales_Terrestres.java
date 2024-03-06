@@ -23,4 +23,8 @@ public class Animales_Terrestres extends Animales{
     public String getGarras() {
         return garras;
     }
+
+    public String getTipo_patas() {
+        return tipo_patas;
+    }
 }
