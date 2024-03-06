@@ -1,30 +1,12 @@
 package Mantenimiento_Seguridad;
 
-public class Mantenimiento {
+public class Mantenimiento extends Instalaciones{
 
     // Atributos
-    String nombre;
-    String tipo;
-    boolean mantenimientoProgramado;
+    String tipo_mantenimiento;
+    String fecha_mantenimiento;
+    String hora_mantenimiento;
 
     // Constructor
-    public Mantenimiento(String nombre, String tipo, boolean mantenimientoProgramado) {
-        this.nombre = nombre;
-        this.tipo = tipo;
-        this.mantenimientoProgramado = mantenimientoProgramado;
-    }
-
-    // Getters y Setters
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public boolean getMantenimientoProgramado() {
-        return mantenimientoProgramado;
-    }
-
+    
 }
