@@ -40,6 +40,7 @@ public class Tour_Animales_Aviarios extends Visitantes implements TourGuiado{
         this.horaVisita = horaVisita;
     }
 
+
     // Metodo toString
     @Override
     public void realizarTour() {

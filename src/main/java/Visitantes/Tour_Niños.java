@@ -7,6 +7,11 @@ public class Tour_Niños extends Visitantes implements TourGuiado{
         super(Edad, InteresVisitante, fechaVisita, horaVisita);
     }
 
+    // Getters y Setters
+    public String getEdad() {
+        return Edad;
+    }
+
     // Metodo toString
     @Override
     public void realizarTour() {
