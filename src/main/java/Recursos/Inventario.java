@@ -42,4 +42,8 @@ public class Inventario {
         return this.medicinas.size();
     }
 
+    public int cantidadAlimentos(){
+        return this.alimentos.size();
+    }
+
 
