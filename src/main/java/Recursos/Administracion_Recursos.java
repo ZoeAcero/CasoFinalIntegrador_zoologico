@@ -23,5 +23,9 @@ public class Administracion_Recursos {
         return precio;
     }
 
+    public String getUbicacion() {
+        return ubicacion;
+    }
+
 
 }
