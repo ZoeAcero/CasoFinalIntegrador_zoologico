@@ -19,4 +19,8 @@ public class Equipamiento extends Administracion_Recursos{
     public String getTipo_equipamiento() {
         return tipo_equipamiento;
     }
+
+    public String getFecha_adquisicion() {
+        return fecha_adquisicion;
+    }
 }
