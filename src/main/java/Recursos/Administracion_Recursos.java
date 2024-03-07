@@ -27,5 +27,9 @@ public class Administracion_Recursos {
         return ubicacion;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
 
 }
