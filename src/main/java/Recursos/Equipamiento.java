@@ -23,4 +23,8 @@ public class Equipamiento extends Administracion_Recursos{
     public String getFecha_adquisicion() {
         return fecha_adquisicion;
     }
+
+    public String getFecha_ultima_revision() {
+        return fecha_ultima_revision;
+    }
 }
