@@ -28,6 +28,10 @@ public class Tour_Niños extends Visitantes implements TourGuiado{
         return fechaVisita;
     }
 
+    public void setFechaVisita(String fechaVisita) {
+        this.fechaVisita = fechaVisita;
+    }
+
     // Metodo toString
     @Override
     public void realizarTour() {
