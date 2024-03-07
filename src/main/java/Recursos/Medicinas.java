@@ -38,4 +38,11 @@ public class Medicinas extends Administracion_Recursos{
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
+// Método toString
+    @Override
+    public String toString() {
+        return "Medicinas{" + "tipo_medicina=" + tipo_medicina + ", fecha_caducidad=" + fecha_caducidad + '}';
+    }
+    
 }
