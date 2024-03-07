@@ -37,4 +37,9 @@ public class Inventario {
         this.equipamiento.remove(equipamiento);
     }
 
+    // Metodos para verificar la cantidad de un recurso
+    public int cantidadMedicinas(){
+        return this.medicinas.size();
+    }
+
 
