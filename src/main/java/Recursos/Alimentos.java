@@ -25,4 +25,8 @@ public class Alimentos {
         this.tipo_alimento = tipo_alimento;
     }
 
+    public Boolean getPerecedero() {
+        return perecedero;
+    }
+
 }
