@@ -41,4 +41,8 @@ public class Alimentos {
         this.cantidad = cantidad;
     }
 
+    public String getProveedor() {
+        return proveedor;
+    }
+
 }
