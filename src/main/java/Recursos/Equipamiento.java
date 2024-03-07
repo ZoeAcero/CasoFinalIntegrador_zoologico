@@ -31,4 +31,8 @@ public class Equipamiento extends Administracion_Recursos{
     public void setTipo_equipamiento(String tipo_equipamiento) {
         this.tipo_equipamiento = tipo_equipamiento;
     }
+
+    public void setFecha_adquisicion(String fecha_adquisicion) {
+        this.fecha_adquisicion = fecha_adquisicion;
+    }
 }
