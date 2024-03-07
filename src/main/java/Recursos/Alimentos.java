@@ -16,4 +16,9 @@ public class Alimentos {
         this.proveedor = proveedor;
     }
 
+    // Getters y Setters
+    public String getTipo_alimento() {
+        return tipo_alimento;
+    }
+
 }
