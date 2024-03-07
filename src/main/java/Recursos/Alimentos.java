@@ -33,4 +33,8 @@ public class Alimentos {
         this.perecedero = perecedero;
     }
 
+    public int getCantidad() {
+        return cantidad;
+    }
+
 }
