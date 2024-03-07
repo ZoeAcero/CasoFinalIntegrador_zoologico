@@ -1,14 +1,15 @@
 package Recursos;
 
-public class Alimentos extends Administracion_Recursos{
+public class Alimentos {
 
     // Atributos
     String tipo_alimento;
     Boolean perecedero;
+    int cantidad;
+    String proveedor;
 
     // Constructor
     public Alimentos(String nombre, double precio, String ubicacion, String tipo_alimento, Boolean perecedero) {
-        super(nombre, precio, ubicacion);
         this.tipo_alimento = tipo_alimento;
     }
 
