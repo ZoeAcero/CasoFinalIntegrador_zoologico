@@ -11,4 +11,9 @@ public class Alimentos extends Administracion_Recursos{
         this.tipo_alimento = tipo_alimento;
     }
 
+    // Getters y Setters
+    public String getTipo_alimento() {
+        return tipo_alimento;
+    }
+
 }
