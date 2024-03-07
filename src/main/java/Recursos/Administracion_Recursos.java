@@ -35,5 +35,9 @@ public class Administracion_Recursos {
         this.precio = precio;
     }
 
+    public void setUbicacion(String ubicacion) {
+        this.ubicacion = ubicacion;
+    }
+
 
 }
