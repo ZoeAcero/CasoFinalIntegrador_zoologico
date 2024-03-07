@@ -30,4 +30,8 @@ public class Medicinas extends Administracion_Recursos{
     public void setTipo_medicina(String tipo_medicina) {
         this.tipo_medicina = tipo_medicina;
     }
+
+    public void setFecha_caducidad(String fecha_caducidad) {
+        this.fecha_caducidad = fecha_caducidad;
+    }
 }
