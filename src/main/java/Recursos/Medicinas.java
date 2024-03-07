@@ -18,4 +18,8 @@ public class Medicinas extends Administracion_Recursos{
     public String getTipo_medicina() {
         return tipo_medicina;
     }
+
+    public String getFecha_caducidad() {
+        return fecha_caducidad;
+    }
 }
