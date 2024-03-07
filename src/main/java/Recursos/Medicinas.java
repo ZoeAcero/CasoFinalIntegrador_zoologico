@@ -34,4 +34,8 @@ public class Medicinas extends Administracion_Recursos{
     public void setFecha_caducidad(String fecha_caducidad) {
         this.fecha_caducidad = fecha_caducidad;
     }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
 }
