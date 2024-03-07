@@ -1,7 +1,9 @@
 package Visitantes;
-
+import Animales.Animales;
 public class Kiosko_Interactivo {
-    public void realizarTour() {
-        System.out.println(("¡Bienvenidos! Vamos a explorar el kiosko interactivo y aprender sobre los animales."));
-    }
+public void interactuarConAnimales(Animales animal) {
+
+
+}
+
 }
