@@ -14,4 +14,9 @@ public class Equipamiento extends Administracion_Recursos{
         this.fecha_adquisicion = fecha_adquisicion;
         this.fecha_ultima_revision = fecha_ultima_revision;
     }
+
+    // Getters y Setters
+    public String getTipo_equipamiento() {
+        return tipo_equipamiento;
+    }
 }
