@@ -35,4 +35,8 @@ public class Equipamiento extends Administracion_Recursos{
     public void setFecha_adquisicion(String fecha_adquisicion) {
         this.fecha_adquisicion = fecha_adquisicion;
     }
+
+    public void setFecha_ultima_revision(String fecha_ultima_revision) {
+        this.fecha_ultima_revision = fecha_ultima_revision;
+    }
 }
