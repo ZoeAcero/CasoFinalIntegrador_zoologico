@@ -20,6 +20,10 @@ public class Tour_Niños extends Visitantes implements TourGuiado{
         return InteresVisitante;
     }
 
+    public void setInteresVisitante(String InteresVisitante) {
+        this.InteresVisitante = InteresVisitante;
+    }
+
     // Metodo toString
     @Override
     public void realizarTour() {
