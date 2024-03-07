@@ -93,6 +93,12 @@ public class Animales {
     public void setVacunado(Boolean vacunado) {
         this.vacunado = vacunado;
     }
+
+    public void setEsterilizado(Boolean esterilizado) {
+        this.esterilizado = esterilizado;
+    }
+
+    
 }
 
 
