@@ -23,7 +23,7 @@ public class Sensores extends Seguridad{
     public void desactivarSensor() {
         System.out.println("Desactivando sensor en " + nombre);
     }
-    
+
 
     // Getters y Setters
     public String getTipo_sensor() {
