@@ -38,7 +38,12 @@ public class Administracion_Recursos {
     public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
     }
-    
+
+// Método toString
+    @Override
+    public String toString() {
+        return "Administracion_Recursos{" + "nombre=" + nombre + ", precio=" + precio + ", ubicacion=" + ubicacion + '}';
+    }
 
 
 }
