@@ -45,4 +45,8 @@ public class Alimentos {
         return proveedor;
     }
 
+    public void setProveedor(String proveedor) {
+        this.proveedor = proveedor;
+    }
+
 }
