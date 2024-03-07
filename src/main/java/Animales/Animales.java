@@ -37,6 +37,10 @@ public class Animales {
     public String getRaza() {
         return null;
     }
+
+    public String getColor() {
+        return null;
+    }
 }
 
 
