@@ -53,6 +53,10 @@ public class Animales {
     public Float getAltura() {
         return null;
     }
+
+    public Boolean getVacunado() {
+        return null;
+    }
 }
 
 
