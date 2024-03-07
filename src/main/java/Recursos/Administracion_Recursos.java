@@ -14,5 +14,10 @@ public class Administracion_Recursos {
         this.ubicacion = ubicacion;
     }
 
+    // Getters y Setters
+    public String getNombre() {
+        return nombre;
+    }
+
 
 }
