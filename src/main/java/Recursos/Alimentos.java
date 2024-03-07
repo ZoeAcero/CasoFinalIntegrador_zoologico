@@ -29,4 +29,8 @@ public class Alimentos {
         return perecedero;
     }
 
+    public void setPerecedero(Boolean perecedero) {
+        this.perecedero = perecedero;
+    }
+
 }
