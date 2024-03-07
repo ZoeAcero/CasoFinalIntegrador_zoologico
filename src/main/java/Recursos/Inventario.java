@@ -46,4 +46,10 @@ public class Inventario {
         return this.alimentos.size();
     }
 
+    public int cantidadEquipamiento(){
+        return this.equipamiento.size();
+    }
+
+}
+
 
