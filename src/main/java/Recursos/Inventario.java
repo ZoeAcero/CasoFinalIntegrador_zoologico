@@ -17,4 +17,8 @@ public class Inventario {
         this.medicinas.add(medicina);
     }
 
+    public void agregarAlimento(Alimentos alimento){
+        this.alimentos.add(alimento);
+    }
+
 
