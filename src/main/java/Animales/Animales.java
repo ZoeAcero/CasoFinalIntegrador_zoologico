@@ -85,6 +85,14 @@ public class Animales {
     public void setPeso(Float peso) {
         this.peso = peso;
     }
+
+    public void setAltura(Float altura) {
+        this.altura = altura;
+    }
+
+    public void setVacunado(Boolean vacunado) {
+        this.vacunado = vacunado;
+    }
 }
 
 
