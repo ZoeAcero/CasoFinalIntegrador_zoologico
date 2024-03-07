@@ -39,4 +39,10 @@ public class Equipamiento extends Administracion_Recursos{
     public void setFecha_ultima_revision(String fecha_ultima_revision) {
         this.fecha_ultima_revision = fecha_ultima_revision;
     }
+
+    // Método toString
+    @Override
+    public String toString() {
+        return "Equipamiento{" + "tipo_equipamiento=" + tipo_equipamiento + ", fecha_adquisicion=" + fecha_adquisicion + ", fecha_ultima_revision=" + fecha_ultima_revision + '}';
+    }
 }
