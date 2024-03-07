@@ -12,4 +12,6 @@ public class Inventario {
         this.alimentos = new ArrayList<>();
         this.equipamiento = new ArrayList<>();
     }
+
+    
 }
