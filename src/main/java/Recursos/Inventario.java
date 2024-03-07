@@ -33,4 +33,8 @@ public class Inventario {
         this.alimentos.remove(alimento);
     }
 
+    public void eliminarEquipamiento(Equipamiento equipamiento){
+        this.equipamiento.remove(equipamiento);
+    }
+
 
