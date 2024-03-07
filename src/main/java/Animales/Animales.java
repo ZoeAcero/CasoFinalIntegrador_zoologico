@@ -26,6 +26,13 @@ public class Animales {
     }
 
 
+    public String getNombre() {
+        return null;
+    }
+
+    public String getTipo() {
+        return null;
+    }
 }
 
 
