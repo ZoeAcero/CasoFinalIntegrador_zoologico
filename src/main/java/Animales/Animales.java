@@ -49,6 +49,10 @@ public class Animales {
     public Float getPeso() {
         return null;
     }
+
+    public Float getAltura() {
+        return null;
+    }
 }
 
 
