@@ -12,6 +12,10 @@ public class Tour_Niños extends Visitantes implements TourGuiado{
         return Edad;
     }
 
+    public void setEdad(String Edad) {
+        this.Edad = Edad;
+    }
+
     // Metodo toString
     @Override
     public void realizarTour() {
