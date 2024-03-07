@@ -69,6 +69,14 @@ public class Animales {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }
 
 
