@@ -21,4 +21,8 @@ public class Inventario {
         this.alimentos.add(alimento);
     }
 
+    public void agregarEquipamiento(Equipamiento equipamiento){
+        this.equipamiento.add(equipamiento);
+    }
+
 
