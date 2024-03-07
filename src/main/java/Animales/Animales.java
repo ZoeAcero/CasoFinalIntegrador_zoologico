@@ -61,6 +61,10 @@ public class Animales {
     public Boolean getEsterilizado() {
         return null;
     }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
 
 
