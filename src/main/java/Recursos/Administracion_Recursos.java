@@ -19,5 +19,9 @@ public class Administracion_Recursos {
         return nombre;
     }
 
+    public double getPrecio() {
+        return precio;
+    }
+
 
 }
