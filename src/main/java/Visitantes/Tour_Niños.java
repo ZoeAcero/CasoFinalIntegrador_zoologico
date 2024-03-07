@@ -32,6 +32,10 @@ public class Tour_Niños extends Visitantes implements TourGuiado{
         this.fechaVisita = fechaVisita;
     }
 
+    public String getHoraVisita() {
+        return horaVisita;
+    }
+
     // Metodo toString
     @Override
     public void realizarTour() {
