@@ -38,6 +38,7 @@ public class Administracion_Recursos {
     public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
     }
+    
 
 
 }
