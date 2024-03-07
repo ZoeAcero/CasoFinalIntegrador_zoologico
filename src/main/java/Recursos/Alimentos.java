@@ -37,4 +37,8 @@ public class Alimentos {
         return cantidad;
     }
 
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+
 }
