@@ -65,6 +65,10 @@ public class Animales {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
 }
 
 
