@@ -25,4 +25,8 @@ public class Alimentos extends Administracion_Recursos{
         this.tipo_alimento = tipo_alimento;
     }
 
+    public void setPerecedero(Boolean perecedero) {
+        this.perecedero = perecedero;
+    }
+
 }
