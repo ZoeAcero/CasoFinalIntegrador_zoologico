@@ -41,6 +41,10 @@ public class Animales {
     public String getColor() {
         return null;
     }
+
+    public String getEdad() {
+        return null;
+    }
 }
 
 
