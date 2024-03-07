@@ -1,6 +1,6 @@
 package Recursos;
 
-public class Medicinas extends Administracion_Recursos{
+public class Medicinas{
 
     // Atributos
     String tipo_medicina;
@@ -8,8 +8,8 @@ public class Medicinas extends Administracion_Recursos{
     Double precio;
 
     // Constructor
-    public Medicinas(String nombre, double precio, String ubicacion, String tipo_medicina, String fecha_caducidad) {
-        super(nombre, precio, ubicacion);
+    public Medicinas(String tipo_medicina, String fecha_caducidad) {
+
         this.tipo_medicina = tipo_medicina;
         this.fecha_caducidad = fecha_caducidad;
     }
