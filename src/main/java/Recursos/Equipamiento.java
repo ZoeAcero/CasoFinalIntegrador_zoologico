@@ -1,6 +1,6 @@
 package Recursos;
 
-public class Equipamiento extends Administracion_Recursos{
+public class Equipamiento{
 
     // Atributos
     String tipo_equipamiento;
@@ -8,8 +8,7 @@ public class Equipamiento extends Administracion_Recursos{
     String fecha_ultima_revision;
 
     // Constructor
-    public Equipamiento(String nombre, double precio, String ubicacion, String tipo_equipamiento, String fecha_adquisicion, String fecha_ultima_revision) {
-        super(nombre, precio, ubicacion);
+    public Equipamiento(String tipo_equipamiento, String fecha_adquisicion, String fecha_ultima_revision) {
         this.tipo_equipamiento = tipo_equipamiento;
         this.fecha_adquisicion = fecha_adquisicion;
         this.fecha_ultima_revision = fecha_ultima_revision;
