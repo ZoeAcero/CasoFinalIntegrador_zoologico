@@ -25,4 +25,8 @@ public class Inventario {
         this.equipamiento.add(equipamiento);
     }
 
+    public void eliminarMedicina(Medicinas medicina){
+        this.medicinas.remove(medicina);
+    }
+
 
