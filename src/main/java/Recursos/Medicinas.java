@@ -26,4 +26,8 @@ public class Medicinas extends Administracion_Recursos{
     public double getPrecio() {
         return precio;
     }
+
+    public void setTipo_medicina(String tipo_medicina) {
+        this.tipo_medicina = tipo_medicina;
+    }
 }
