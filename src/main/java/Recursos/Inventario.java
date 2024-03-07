@@ -9,6 +9,14 @@ public class Inventario {
         public Inventario() {
             this.inventario = new HashMap<>();
         }
+        public void agregarRecurso(Recurso recurso, int cantidad) {
+            inventario.put(recurso, cantidad);
+        }
 
-    
-}
+        public void actualizarInventario(Recurso recurso, int cantidad) {
+            // Actualizar la cantidad en el inventario
+        }
+
+
+
+    }
