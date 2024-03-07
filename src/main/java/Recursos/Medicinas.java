@@ -13,4 +13,9 @@ public class Medicinas extends Administracion_Recursos{
         this.tipo_medicina = tipo_medicina;
         this.fecha_caducidad = fecha_caducidad;
     }
+
+    // Getters y Setters
+    public String getTipo_medicina() {
+        return tipo_medicina;
+    }
 }
