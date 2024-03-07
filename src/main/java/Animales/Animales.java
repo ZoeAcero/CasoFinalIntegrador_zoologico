@@ -57,6 +57,10 @@ public class Animales {
     public Boolean getVacunado() {
         return null;
     }
+
+    public Boolean getEsterilizado() {
+        return null;
+    }
 }
 
 
