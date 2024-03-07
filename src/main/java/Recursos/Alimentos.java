@@ -21,4 +21,8 @@ public class Alimentos extends Administracion_Recursos{
         return perecedero;
     }
 
+    public void setTipo_alimento(String tipo_alimento) {
+        this.tipo_alimento = tipo_alimento;
+    }
+
 }
