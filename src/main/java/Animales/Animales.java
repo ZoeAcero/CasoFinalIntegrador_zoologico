@@ -33,6 +33,10 @@ public class Animales {
     public String getTipo() {
         return null;
     }
+
+    public String getRaza() {
+        return null;
+    }
 }
 
 
