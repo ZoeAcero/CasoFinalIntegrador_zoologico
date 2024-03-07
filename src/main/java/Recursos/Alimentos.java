@@ -29,4 +29,10 @@ public class Alimentos extends Administracion_Recursos{
         this.perecedero = perecedero;
     }
 
+    // Método toString
+    @Override
+    public String toString() {
+        return "Alimentos{" + "tipo_alimento=" + tipo_alimento + ", perecedero=" + perecedero + '}';
+    }
+
 }
