@@ -5,7 +5,7 @@ public class Medicinas extends Administracion_Recursos{
     // Atributos
     String tipo_medicina;
     String fecha_caducidad;
-    Float precio;
+    Double precio;
 
     // Constructor
     public Medicinas(String nombre, double precio, String ubicacion, String tipo_medicina, String fecha_caducidad) {
@@ -23,7 +23,7 @@ public class Medicinas extends Administracion_Recursos{
         return fecha_caducidad;
     }
 
-    public Float getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 }
