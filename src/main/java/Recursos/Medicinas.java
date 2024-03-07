@@ -22,4 +22,8 @@ public class Medicinas extends Administracion_Recursos{
     public String getFecha_caducidad() {
         return fecha_caducidad;
     }
+
+    public Float getPrecio() {
+        return precio;
+    }
 }
