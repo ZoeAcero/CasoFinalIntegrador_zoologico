@@ -49,4 +49,10 @@ public class Alimentos {
         this.proveedor = proveedor;
     }
 
+    // Método toString
+    @Override
+    public String toString() {
+        return "Alimentos{" + "tipo_alimento=" + tipo_alimento + ", perecedero=" + perecedero + ", cantidad=" + cantidad + ", proveedor=" + proveedor + '}';
+    }
+
 }
