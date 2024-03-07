@@ -31,5 +31,9 @@ public class Administracion_Recursos {
         this.nombre = nombre;
     }
 
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
 
 }
