@@ -45,6 +45,10 @@ public class Animales {
     public String getEdad() {
         return null;
     }
+
+    public Float getPeso() {
+        return null;
+    }
 }
 
 
