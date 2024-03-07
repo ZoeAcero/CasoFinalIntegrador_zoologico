@@ -8,6 +8,11 @@ public class Administracion_Recursos {
     String ubicacion;
 
     // Constructor
-    
+    public Administracion_Recursos(String nombre, double precio, String ubicacion) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.ubicacion = ubicacion;
+    }
+
 
 }
