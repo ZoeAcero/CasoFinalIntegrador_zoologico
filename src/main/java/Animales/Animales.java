@@ -77,6 +77,14 @@ public class Animales {
     public void setColor(String color) {
         this.color = color;
     }
+
+    public void setEdad(String edad) {
+        this.edad = edad;
+    }
+
+    public void setPeso(Float peso) {
+        this.peso = peso;
+    }
 }
 
 
