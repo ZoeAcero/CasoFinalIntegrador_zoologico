@@ -29,4 +29,8 @@ public class Inventario {
         this.medicinas.remove(medicina);
     }
 
+    public void eliminarAlimento(Alimentos alimento){
+        this.alimentos.remove(alimento);
+    }
+
 
