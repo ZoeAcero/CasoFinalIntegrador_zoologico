@@ -27,4 +27,8 @@ public class Equipamiento extends Administracion_Recursos{
     public String getFecha_ultima_revision() {
         return fecha_ultima_revision;
     }
+
+    public void setTipo_equipamiento(String tipo_equipamiento) {
+        this.tipo_equipamiento = tipo_equipamiento;
+    }
 }
