@@ -13,5 +13,8 @@ public class Inventario {
         this.equipamiento = new ArrayList<>();
     }
 
-    
-}
+    public void agregarMedicina(Medicinas medicina){
+        this.medicinas.add(medicina);
+    }
+
+
