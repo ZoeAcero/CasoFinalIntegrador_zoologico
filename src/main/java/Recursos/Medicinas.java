@@ -44,5 +44,5 @@ public class Medicinas extends Administracion_Recursos{
     public String toString() {
         return "Medicinas{" + "tipo_medicina=" + tipo_medicina + ", fecha_caducidad=" + fecha_caducidad + '}';
     }
-    
+
 }
