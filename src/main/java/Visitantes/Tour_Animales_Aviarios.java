@@ -12,6 +12,10 @@ public class Tour_Animales_Aviarios extends Visitantes implements TourGuiado{
         return Edad;
     }
 
+    public void setEdad(String Edad) {
+        this.Edad = Edad;
+    }
+
     // Metodo toString
     @Override
     public void realizarTour() {
