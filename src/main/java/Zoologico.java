@@ -31,7 +31,9 @@ public class Zoologico {
             int opcion = scanner.nextInt();
             scanner.nextLine();
 
-            
+            if (opcion == 1 ) {
+                
+            }
 
         }
 
