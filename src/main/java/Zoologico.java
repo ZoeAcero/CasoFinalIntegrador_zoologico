@@ -19,6 +19,9 @@ public class Zoologico {
         List <Sensores> sensores = new ArrayList<>();
         Seguridad seguridad = new Seguridad(camaras, sensores);
         Kiosko_Interactivo kiosko = new Kiosko_Interactivo();
+        Inventario inventario = new Inventario();
+        Scanner scanner = new Scanner(System.in);
+
 
     }
 }
