@@ -338,11 +338,8 @@ public class Zoologico {
             else if (opcion == 3) {
                 break;
             }
-            else {
-                System.out.println("Opcion no valida");
-            }
 
-
+            
                 }
 
                 }
