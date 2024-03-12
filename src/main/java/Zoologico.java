@@ -90,6 +90,7 @@ public class Zoologico {
                             System.out.println("Ingrese el numero de patas del animal:");
                             int setNumero_patas = scanner.nextInt();
                             nuevo_animal = new Animales_Terrestres(setNombre, setEdad, setRaza, setColor, setPeso, setAltura, setVacunado, setEsterilizado, setPelaje, setNumero_patas);
+                            break;
                         case 2: // Animal Acuatico
                             System.out.println("Ingrese el tipo de aleta del animal:");
                             String setTipo_aleta = scanner.nextLine();
@@ -98,6 +99,7 @@ public class Zoologico {
                             System.out.println("Ingrese si el animal tiene branquias:");
                             Boolean setBranquias = scanner.nextBoolean();
                             nuevo_animal = new Animales_Acuaticos(setNombre, setEdad, setRaza, setColor, setPeso, setAltura, setVacunado, setEsterilizado, setTipo_aleta, setNada, setBranquias);
+                            break;
 
                         case 3: // Animal Aviario
                             System.out.println("Ingrese el tipo de pico del animal:");
@@ -107,6 +109,7 @@ public class Zoologico {
                             System.out.println("Ingrese si el animal tiene plumas:");
                             Boolean setPlumas = scanner.nextBoolean();
                             nuevo_animal = new Animales_Aviarios(setNombre, setEdad, setRaza, setColor, setPeso, setAltura, setVacunado, setEsterilizado, setTipo_pico, setVuela, setPlumas);
+                            break;
 
 
                         default:
