@@ -22,6 +22,14 @@ public class Zoologico {
         Inventario inventario = new Inventario();
         Scanner scanner = new Scanner(System.in);
 
+        while (true) {
+            System.out.println("Bienvenido al Zoologico, por favor seleccione una opcion:");
+            System.out.println("1. Visitantes");
+            System.out.println("2. Trabajador");
+            System.out.println("3. Salir");
+
+        }
+
 
     }
 }
