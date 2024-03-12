@@ -100,6 +100,22 @@ public class Zoologico {
                             Boolean setBranquias = scanner.nextBoolean();
                             nuevo_animal = new Animales_Acuaticos(setNombre, setEdad, setRaza, setColor, setPeso, setAltura, setVacunado, setEsterilizado, setTipo_aleta, setNada, setBranquias);
 
+                        case 3: // Animal Aviario
+                            System.out.println("Ingrese el tipo de pico del animal:");
+                            String setTipo_pico = scanner.nextLine();
+                            System.out.println("Ingrese si el animal vuela:");
+                            Boolean setVuela = scanner.nextBoolean();
+                            System.out.println("Ingrese si el animal tiene plumas:");
+                            Boolean setPlumas = scanner.nextBoolean();
+                            nuevo_animal = new Animales_Aviarios(setNombre, setEdad, setRaza, setColor, setPeso, setAltura, setVacunado, setEsterilizado, setTipo_pico, setVuela, setPlumas);
+
+
+                        default:
+                            System.out.println("Opcion no valida");
+                            break;
+
+                            
+
 
 
                     }
