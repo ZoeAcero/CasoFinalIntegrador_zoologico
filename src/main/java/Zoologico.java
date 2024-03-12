@@ -58,6 +58,11 @@ public class Zoologico {
                     System.out.println("Ingrese el tipo de animal (1.Terrestre, 2.Acuatico, 3.Aviario:");
                     int tipo_animal = scanner.nextInt();
                     scanner.nextLine();
+
+
+                    System.out.println("Ingrese el nombre del animal:");
+                    String setNombre = scanner.nextLine();
+                    
                 }
 
 
