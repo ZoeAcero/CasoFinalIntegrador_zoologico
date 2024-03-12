@@ -62,7 +62,8 @@ public class Zoologico {
 
                     System.out.println("Ingrese el nombre del animal:");
                     String setNombre = scanner.nextLine();
-                    
+                    System.out.println("Ingrese la edad del animal:");
+                    String setEdad = scanner.nextLine();
                 }
 
 
