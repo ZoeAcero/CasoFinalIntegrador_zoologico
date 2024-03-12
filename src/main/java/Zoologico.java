@@ -140,7 +140,11 @@ public class Zoologico {
                         System.out.println("3. Buscar informacion específica");
                         System.out.println("4. Salir al menu principal");
 
-                        
+                        int opcion_kiosko = scanner.nextInt();
+                        scanner.nextLine();
+
+
+
 
                     }
                 else if (opcion_visitante == 5) {
