@@ -121,13 +121,15 @@ public class Zoologico {
                         System.out.println("El animal ha sido registrado con exito");
                     }
                 }
-
-else if (opcion_visitante == 3) {
+                else if (opcion_visitante == 3) {
                     System.out.println("Por favor ingrese el nombre del habitat que desea ver:");
                     String nombre_habitat = scanner.nextLine();
                     for (Hábitat habitat : habitats) {
                         if (habitat.getNombre().equals(nombre_habitat)) {
                             System.out.println(habitat);
+                        }
+                        else {
+                            System.out.println("Habitat no encontrado");
                         }
                     }
 
