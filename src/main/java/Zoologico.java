@@ -11,6 +11,9 @@ import java.util.Scanner;
 public class Zoologico {
 
     public static void main(String[] args) {
+        List <Hábitat> habitats = new ArrayList<>();
+        List <Visitantes> visitantes = new ArrayList<>();
+        List <Animales> animales = new ArrayList<>();
 
     }
 }
