@@ -80,6 +80,17 @@ public class Zoologico {
                     System.out.println("Ingrese si el animal esta esterilizado (true/false):");
                     Boolean setEsterilizado = scanner.nextBoolean();
                     scanner.nextLine();
+
+
+                    Animales nuevo_animal = new Animal(setNombre, setEdad, setRaza, setColor, setPeso, setAltura, setVacunado, setEsterilizado);
+
+                    switch (tipo_animal){
+                        case 1: // Animal Terrestre
+                            System.out.println("Ingrese el pelaje del animal:");
+                            String setPelaje = scanner.nextLine();
+                            
+
+                    }
                 }
 
 
