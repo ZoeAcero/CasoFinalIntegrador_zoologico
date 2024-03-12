@@ -28,6 +28,11 @@ public class Zoologico {
             System.out.println("2. Trabajador");
             System.out.println("3. Salir");
 
+            int opcion = scanner.nextInt();
+            scanner.nextLine();
+
+            
+
         }
 
 
