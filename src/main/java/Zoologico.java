@@ -38,6 +38,18 @@ public class Zoologico {
                 System.out.println("3. Registrar un nuevo animal");
                 System.out.println("4. Ir al kiosko interactivo");
                 System.out.println("5. Salir al menu principal");
+
+                int opcion_visitante = scanner.nextInt();
+                scanner.nextLine();
+
+                if (opcion_visitante == 1) {
+                    System.out.println("Por favor ingreses el nombre del animal que desea ver:");
+                    String nombre_animal = scanner.nextLine();
+                    
+                }
+
+
+
             }
 
         }
