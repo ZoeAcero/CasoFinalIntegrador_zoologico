@@ -133,12 +133,12 @@ public class Zoologico {
                         }
                     }
 
-                    else if (opcion_visitante == 4) {
+                else if (opcion_visitante == 4) {
                         System.out.println("Bienvenido al kiosko interactivo, por favor seleccione una opcion:");
                     }
-                    else if (opcion_visitante == 5) {
-                        continue;
-                    }
+                else if (opcion_visitante == 5) {
+                    continue;
+                }
 
 
 
