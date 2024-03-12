@@ -272,6 +272,38 @@ public class Zoologico {
                         System.out.println("Opcion no valida");
                     }
 
+                else if (opcion_trabajador == 3) {
+                        System.out.println("Bienvenido al inventario, por favor seleccione una opcion:");
+                        System.out.println("1. Eliminar medicina");
+                        System.out.println("2. Eliminar alimento");
+                        System.out.println("3. Eliminar equipamiento");
+                        System.out.println("4. Salir al menu principal");
+
+                        int opcion_eliminar = scanner.nextInt();
+                        scanner.nextLine();
+
+                        if (opcion_eliminar == 1) {
+                            System.out.println("Por favor ingrese el tipo de medicina a eliminar:");
+                            String tipo_medicina = scanner.nextLine();
+                            inventario.eliminarMedicina(tipo_medicina);
+                        }
+                        else if (opcion_eliminar == 2) {
+                            System.out.println("Por favor ingrese el tipo de alimento a eliminar:");
+                            String tipo_alimento = scanner.nextLine();
+                            inventario.eliminarAlimento(tipo_alimento);
+                        }
+                        else if (opcion_eliminar == 3) {
+                            System.out.println("Por favor ingrese el tipo de equipamiento a eliminar:");
+                            String tipo_equipamiento = scanner.nextLine();
+                            inventario.eliminarEquipamiento(tipo_equipamiento);
+                        }
+                        else if (opcion_eliminar == 4) {
+                            continue;
+                        }
+                        else {
+                            System.out.println("Opcion no valida");
+                        }
+
 
 
 

@@ -25,15 +25,15 @@ public class Inventario {
         this.equipamiento.add(equipamiento);
     }
 
-    public void eliminarMedicina(Medicinas medicina){
+    public void eliminarMedicina(String medicina){
         this.medicinas.remove(medicina);
     }
 
-    public void eliminarAlimento(Alimentos alimento){
+    public void eliminarAlimento(String alimento){
         this.alimentos.remove(alimento);
     }
 
-    public void eliminarEquipamiento(Equipamiento equipamiento){
+    public void eliminarEquipamiento(String equipamiento){
         this.equipamiento.remove(equipamiento);
     }
 
