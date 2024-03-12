@@ -1,5 +1,7 @@
 package Mantenimiento_Seguridad;
 
+import java.util.List;
+
 public class Seguridad{
 
     // Atributos
@@ -15,4 +17,6 @@ public class Seguridad{
         this.hora_activacion = hora_activacion;
     }
 
+    public Seguridad(List<Camara> camaras, List<Sensores> sensores) {
+    }
 }

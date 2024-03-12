@@ -15,6 +15,10 @@ public class Animales_Terrestres extends Animales{
         this.tipo_patas = tipo_patas;
     }
 
+    public Animales_Terrestres(String setNombre, String setEdad, String setRaza, String setColor, Float setPeso, Float setAltura, Boolean setVacunado, Boolean setEsterilizado, String setPelaje, int setNumeroPatas) {
+        super();
+    }
+
     // Getters y Setters
     public String getPelaje() {
         return pelaje;

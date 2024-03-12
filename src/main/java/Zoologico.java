@@ -243,5 +243,36 @@ public class Zoologico {
                         System.out.println("Ingrese la fecha de caducidad:");
                         String fecha_caducidad = scanner.nextLine();
                         System.out.println("Ingrese el precio:");
-        }
+                        Double precio = scanner.nextDouble();
+                        scanner.nextLine();
+
+                        Alimentos alimento = new Alimentos(tipo_alimento, fecha_caducidad);
+                        alimento.setPrecio(precio);
+                        inventario.agregarAlimento(alimento);
+                    }
+
+                    else if (opcion_agregar == 3) {
+                        System.out.println("Por favor ingrese la informacion del equipamiento");
+                        System.out.println("Ingrese el tipo de equipamiento:");
+                        String tipo_equipamiento = scanner.nextLine();
+                        System.out.println("Ingrese la fecha de adquisicion:");
+                        String fecha_adquisicion = scanner.nextLine();
+                        System.out.println("Ingrese el precio:");
+                        Double precio = scanner.nextDouble();
+                        scanner.nextLine();
+
+                        Equipamiento equipamiento = new Equipamiento(tipo_equipamiento, fecha_adquisicion);
+                        equipamiento.setPrecio(precio);
+                        inventario.agregarEquipamiento(equipamiento);
+                    }
+                    else if (opcion_agregar == 4) {
+                        continue;
+                    }
+                    else {
+                        System.out.println("Opcion no valida");
+                    }
+
+
+
+
     }

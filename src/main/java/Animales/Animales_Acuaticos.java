@@ -15,6 +15,10 @@ public Animales_Acuaticos(String nombre, String tipo, String raza, String color,
         this.branquias = branquias;
     }
 
+    public Animales_Acuaticos(String setNombre, String setEdad, String setRaza, String setColor, Float setPeso, Float setAltura, Boolean setVacunado, Boolean setEsterilizado, String setTipoAleta, Boolean setNada, Boolean setBranquias) {
+        super();
+    }
+
     // Getters y Setters
     public String getEscamas() {
         return escamas;

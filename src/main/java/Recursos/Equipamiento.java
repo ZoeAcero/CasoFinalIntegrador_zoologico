@@ -8,7 +8,7 @@ public class Equipamiento{
     String fecha_ultima_revision;
 
     // Constructor
-    public Equipamiento(String tipo_equipamiento, String fecha_adquisicion, String fecha_ultima_revision) {
+    public Equipamiento(String tipo_equipamiento, String fecha_adquisicion) {
         this.tipo_equipamiento = tipo_equipamiento;
         this.fecha_adquisicion = fecha_adquisicion;
         this.fecha_ultima_revision = fecha_ultima_revision;
@@ -43,5 +43,8 @@ public class Equipamiento{
     @Override
     public String toString() {
         return "Equipamiento{" + "tipo_equipamiento=" + tipo_equipamiento + ", fecha_adquisicion=" + fecha_adquisicion + ", fecha_ultima_revision=" + fecha_ultima_revision + '}';
+    }
+
+    public void setPrecio(Double precio) {
     }
 }

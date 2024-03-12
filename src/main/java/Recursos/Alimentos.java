@@ -16,6 +16,9 @@ public class Alimentos {
         this.proveedor = proveedor;
     }
 
+    public Alimentos(String tipoAlimento, String fechaCaducidad) {
+    }
+
     // Getters y Setters
     public String getTipo_alimento() {
         return tipo_alimento;
@@ -55,4 +58,6 @@ public class Alimentos {
         return "Alimentos{" + "tipo_alimento=" + tipo_alimento + ", perecedero=" + perecedero + ", cantidad=" + cantidad + ", proveedor=" + proveedor + '}';
     }
 
+    public void setPrecio(Double precio) {
+    }
 }
