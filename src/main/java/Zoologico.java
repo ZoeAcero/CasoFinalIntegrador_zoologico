@@ -32,7 +32,12 @@ public class Zoologico {
             scanner.nextLine();
 
             if (opcion == 1 ) {
-                
+                System.out.println("Bienvenido al Zoologico, por favor seleccione una opcion:");
+                System.out.println("1. Ver un animal");
+                System.out.println("2. Ver hábitat y cuidados de los animales");
+                System.out.println("3. Registrar un nuevo animal");
+                System.out.println("4. Ir al kiosko interactivo");
+                System.out.println("5. Salir al menu principal");
             }
 
         }
