@@ -337,6 +337,13 @@ public class Zoologico {
                             }
                         }
 
+                else if (opcion_trabajador == 5) {
+                    continue;
+                }
+                else {
+                    System.out.println("Opcion no valida");
+                }
+
 
 
 

@@ -25,6 +25,10 @@ public class Animales {
         this.esterilizado = esterilizado;
     }
 
+    public Animales() {
+
+    }
+
 
     public String getNombre() {
         return null;
