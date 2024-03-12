@@ -143,6 +143,19 @@ public class Zoologico {
                         int opcion_kiosko = scanner.nextInt();
                         scanner.nextLine();
 
+                        switch (opcion_kiosko){
+                            case 1:
+                                //mostrar informacion de un animal
+                                System.out.println("Por favor ingrese el nombre del animal que desea ver:");
+                                String nombre_animal = scanner.nextLine();
+                                for (Animales animal : animales) {
+                                    if (animal.getNombre().equals(nombre_animal)) {
+                                        kiosko.interactuarConAnimales(animal);
+                                    }
+                                }
+                                break;
+                        }
+
 
 
 
