@@ -82,15 +82,15 @@ public class Zoologico {
                     scanner.nextLine();
 
 
-                    Animales nuevo_animal = new Animal(setNombre, setEdad, setRaza, setColor, setPeso, setAltura, setVacunado, setEsterilizado);
+                    Animales nuevo_animal = null;
 
                     switch (tipo_animal){
-                        case 1: // Animal Terrestre
+                        case 1: // Animal Terrestrees
                             System.out.println("Ingrese el pelaje del animal:");
                             String setPelaje = scanner.nextLine();
                             System.out.println("Ingrese el numero de patas del animal:");
                             int setNumero_patas = scanner.nextInt();
-                            
+                            nuevo_animal = new Animales_Terrestres(setNombre, setEdad, setRaza, setColor, setPeso, setAltura, setVacunado, setEsterilizado, setPelaje, setNumero_patas);
 
                     }
                 }
