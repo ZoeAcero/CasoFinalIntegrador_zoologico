@@ -166,7 +166,18 @@ public class Zoologico {
                                 }
                                 break;
 
-                                
+                            case 3:
+                                System.out.println("Por favor ingrese su busqueda:");
+                                String busqueda = scanner.nextLine();
+                                kiosko.buscarInformacion(busqueda);
+                                break;
+
+                            case 4:
+                                //salir al menu principal
+                                continue;
+                            default:
+                                System.out.println("Opcion no valida");
+                                break;
                         }
 
 

@@ -28,7 +28,6 @@ public void interactuarConAnimales(Animales animal) {
     }
 
 
-
-
-
+    public void buscarInformacion(String busqueda) {
+    }
 }
