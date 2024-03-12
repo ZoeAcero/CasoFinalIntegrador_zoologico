@@ -272,7 +272,7 @@ public class Zoologico {
                         System.out.println("Opcion no valida");
                     }
 
-                else if (opcion_trabajador == 3) {
+                if (opcion_trabajador == 3) {
                         System.out.println("Bienvenido al inventario, por favor seleccione una opcion:");
                         System.out.println("1. Eliminar medicina");
                         System.out.println("2. Eliminar alimento");
@@ -302,6 +302,39 @@ public class Zoologico {
                         }
                         else {
                             System.out.println("Opcion no valida");
+                        }
+
+                if (opcion_trabajador == 4) {
+                            System.out.println("Bienvenido al mantenimiento, por favor seleccione una opcion:");
+                            System.out.println("1. Realizar mantenimiento a un habitat");
+                            System.out.println("2. Realizar mantenimiento a un recurso");
+                            System.out.println("3. Salir al menu principal");
+
+                            int opcion_mantenimiento = scanner.nextInt();
+                            scanner.nextLine();
+
+                            if (opcion_mantenimiento == 1) {
+                                System.out.println("Por favor ingrese el nombre del habitat al que desea realizar mantenimiento:");
+                                String nombre_habitat = scanner.nextLine();
+                                for (Hábitat habitat : habitats) {
+                                    if (habitat.getNombre().equals(nombre_habitat)) {
+                                        // Aquí puedes llamar a un método para realizar mantenimiento al habitat
+                                        // Por ejemplo: mantenimiento.realizarMantenimientoHabitat(habitat);
+                                    }
+                                }
+                            }
+                            else if (opcion_mantenimiento == 2) {
+                                System.out.println("Por favor ingrese el tipo de recurso al que desea realizar mantenimiento:");
+                                String tipo_recurso = scanner.nextLine();
+                                // Aquí puedes llamar a un método para realizar mantenimiento al recurso
+                                // Por ejemplo: mantenimiento.realizarMantenimientoRecurso(tipo_recurso);
+                            }
+                            else if (opcion_mantenimiento == 3) {
+                                continue;
+                            }
+                            else {
+                                System.out.println("Opcion no valida");
+                            }
                         }
 
 
