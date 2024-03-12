@@ -339,7 +339,8 @@ public class Zoologico {
 
 
             else if (opcion == 3) {
-                break;
+                // Salir del programa
+                System.exit(0);  ;
             }
 
 
