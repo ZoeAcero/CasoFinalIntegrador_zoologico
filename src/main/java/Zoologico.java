@@ -74,6 +74,12 @@ public class Zoologico {
                     System.out.println("Ingrese la altura del animal:");
                     Float setAltura = scanner.nextFloat();
                     scanner.nextLine();
+                    System.out.println("Ingrese si el animal esta vacunado (true/false):");
+                    Boolean setVacunado = scanner.nextBoolean();
+                    scanner.nextLine();
+                    System.out.println("Ingrese si el animal esta esterilizado (true/false):");
+                    Boolean setEsterilizado = scanner.nextBoolean();
+                    scanner.nextLine();
                 }
 
 
