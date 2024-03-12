@@ -45,7 +45,19 @@ public class Zoologico {
                 if (opcion_visitante == 1) {
                     System.out.println("Por favor ingreses el nombre del animal que desea ver:");
                     String nombre_animal = scanner.nextLine();
-                    
+                    for (Animales animal : animales) {
+                        if (animal.getNombre().equals(nombre_animal)) {
+                            System.out.println(animal);
+                        }
+                    }
+
+                }
+
+                else if (opcion_visitante == 2){
+                    System.out.println("Por favor ingrese la información del nuevo animal");
+                    System.out.println("Ingrese el tipo de animal (1.Terrestre, 2.Acuatico, 3.Aviario:");
+                    int tipo_animal = scanner.nextInt();
+                    scanner.nextLine();
                 }
 
 
