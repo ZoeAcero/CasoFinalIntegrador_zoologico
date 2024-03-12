@@ -333,15 +333,21 @@ public class Zoologico {
                         }
 
                 else if (opcion_trabajador == 5) {
-                    break;
+                    continue;
+                }
+
+                else {
+                    System.out.println("Opcion no valida");
                 }
 
 
-
-            else if (opcion == 3) {
+                if (opcion == 3) {
                 // Salir del programa
-                System.exit(0);  ;
-            }
+                System.out.println("Gracias por visitar el Zoologico");
+                break;
+                }
+
+
 
 
                 }
