@@ -17,6 +17,8 @@ public class Zoologico {
         List <Mantenimiento> mantenimientos = new ArrayList<>();
         List <Camara> camaras = new ArrayList<>();
         List <Sensores> sensores = new ArrayList<>();
+        Seguridad seguridad = new Seguridad(camaras, sensores);
+        Kiosko_Interactivo kiosko = new Kiosko_Interactivo();
 
     }
 }
