@@ -187,13 +187,6 @@ public class Zoologico {
 
 
 
-
-
-
-
-
-
-
             }
             else if (opcion == 2) {
                 System.out.println("Bienvenido al Zoologico, por favor seleccione una opcion:");
@@ -343,7 +336,20 @@ public class Zoologico {
 
 
 
+            else if (opcion == 3) {
+                break;
+            }
+            else {
+                System.out.println("Opcion no valida");
+            }
+
+
+
+
+
+
 
 
 
     }
+}
