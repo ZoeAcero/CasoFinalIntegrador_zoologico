@@ -135,6 +135,13 @@ public class Zoologico {
 
                 else if (opcion_visitante == 4) {
                         System.out.println("Bienvenido al kiosko interactivo, por favor seleccione una opcion:");
+                        System.out.println("1. Ver informacion de un animal");
+                        System.out.println("2. Ver informacion de un habitat");
+                        System.out.println("3. Buscar informacion específica");
+                        System.out.println("4. Salir al menu principal");
+
+                        
+
                     }
                 else if (opcion_visitante == 5) {
                     continue;
