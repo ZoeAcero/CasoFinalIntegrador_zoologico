@@ -109,7 +109,7 @@ public class Zoologico {
                             System.out.println("Ingrese si el animal tiene plumas:");
                             Boolean setPlumas = scanner.nextBoolean();
                             nuevo_animal = new Animales_Aviarios(setNombre, setEdad, setRaza, setColor, setPeso, setAltura, setVacunado, setEsterilizado, setTipo_pico, setVuela, setPlumas);
-                            break;
+                            
 
 
                         default:
