@@ -64,6 +64,16 @@ public class Zoologico {
                     String setNombre = scanner.nextLine();
                     System.out.println("Ingrese la edad del animal:");
                     String setEdad = scanner.nextLine();
+                    System.out.println("Ingrese la raza del animal:");
+                    String setRaza = scanner.nextLine();
+                    System.out.println("Ingrese el color del animal:");
+                    String setColor = scanner.nextLine();
+                    System.out.println("Ingrese el peso del animal:");
+                    Float setPeso = scanner.nextFloat();
+                    scanner.nextLine();
+                    System.out.println("Ingrese la altura del animal:");
+                    Float setAltura = scanner.nextFloat();
+                    scanner.nextLine();
                 }
 
 
