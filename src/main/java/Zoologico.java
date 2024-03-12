@@ -132,6 +132,7 @@ public class Zoologico {
                             System.out.println("Habitat no encontrado");
                         }
                     }
+                }
 
                 else if (opcion_visitante == 4) {
                         System.out.println("Bienvenido al kiosko interactivo, por favor seleccione una opcion:");
@@ -179,13 +180,9 @@ public class Zoologico {
                                 System.out.println("Opcion no valida");
                                 break;
                         }
-
-
-
-
-                    }
+                }
                 else if (opcion_visitante == 5) {
-                    continue;
+                        continue;
                 }
 
 
@@ -194,10 +191,57 @@ public class Zoologico {
 
 
 
+
+
+
             }
+            else if (opcion == 2) {
+                System.out.println("Bienvenido al Zoologico, por favor seleccione una opcion:");
+                System.out.println("1. Ver inventario");
+                System.out.println("2. Agregar recurso al inventario");
+                System.out.println("3. Eliminar recurso del inventario");
+                System.out.println("4. Realizar mantenimiento");
+                System.out.println("5. Salir al menu principal");
 
+                int opcion_trabajador = scanner.nextInt();
+                scanner.nextLine();
+
+                if (opcion_trabajador == 1) {
+                    System.out.println("El inventario tiene:");
+                    System.out.println("Medicinas: " + inventario.cantidadMedicinas());
+                    System.out.println("Alimentos: " + inventario.cantidadAlimentos());
+                    System.out.println("Equipamiento: " + inventario.cantidadEquipamiento());
+                }
+                else if (opcion_trabajador == 2) {
+                    System.out.println("Bienvenido al inventario, por favor seleccione una opcion:");
+                    System.out.println("1. Agregar medicina");
+                    System.out.println("2. Agregar alimento");
+                    System.out.println("3. Agregar equipamiento");
+                    System.out.println("4. Salir al menu principal");
+
+                    int opcion_agregar = scanner.nextInt();
+                    scanner.nextLine();
+
+                    if (opcion_agregar == 1) {
+                        System.out.println("Por favor ingrese la informacion de la medicina");
+                        System.out.println("Ingrese el tipo de medicina:");
+                        String tipo_medicina = scanner.nextLine();
+                        System.out.println("Ingrese la fecha de caducidad:");
+                        String fecha_caducidad = scanner.nextLine();
+                        System.out.println("Ingrese el precio:");
+                        Double precio = scanner.nextDouble();
+                        scanner.nextLine();
+
+                        Medicinas medicina = new Medicinas(tipo_medicina, fecha_caducidad);
+                        medicina.setPrecio(precio);
+                        inventario.agregarMedicina(medicina);
+                    }
+                    else if (opcion_agregar == 2) {
+                        System.out.println("Por favor ingrese la informacion del alimento");
+                        System.out.println("Ingrese el tipo de alimento:");
+                        String tipo_alimento = scanner.nextLine();
+                        System.out.println("Ingrese la fecha de caducidad:");
+                        String fecha_caducidad = scanner.nextLine();
+                        System.out.println("Ingrese el precio:");
         }
-
-
     }
-}
