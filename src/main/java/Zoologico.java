@@ -114,10 +114,11 @@ public class Zoologico {
                             System.out.println("Opcion no valida");
                             break;
 
-                            
+                    }
 
-
-
+                    if (nuevo_animal != null) {
+                        animales.add(nuevo_animal);
+                        System.out.println("El animal ha sido registrado con exito");
                     }
                 }
 
