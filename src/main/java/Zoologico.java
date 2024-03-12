@@ -154,6 +154,19 @@ public class Zoologico {
                                     }
                                 }
                                 break;
+
+                            case 2:
+                                //mostrar informacion de un habitat
+                                System.out.println("Por favor ingrese el nombre del habitat que desea ver:");
+                                String nombre_habitat = scanner.nextLine();
+                                for (Hábitat habitat : habitats) {
+                                    if (habitat.getNombre().equals(nombre_habitat)) {
+                                        kiosko.interactuarConHabitat(habitat);
+                                    }
+                                }
+                                break;
+
+                                
                         }
 
 
