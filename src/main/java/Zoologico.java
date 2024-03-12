@@ -88,6 +88,8 @@ public class Zoologico {
                         case 1: // Animal Terrestre
                             System.out.println("Ingrese el pelaje del animal:");
                             String setPelaje = scanner.nextLine();
+                            System.out.println("Ingrese el numero de patas del animal:");
+                            int setNumero_patas = scanner.nextInt();
                             
 
                     }
